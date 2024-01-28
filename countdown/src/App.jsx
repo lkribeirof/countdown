@@ -9,13 +9,13 @@ import './App.css';
 
 function App() {
 
-  const [day, hour, minute, second] = useCountDown("Jan 1, 2024 00:00:00")
+  const [day, hour, minute, second] = useCountDown("Jan 1, 2025 00:00:00")
  
 
   return (
     <div className="App" style={{backgroundImage: `url(${Fireworks})` }}>
       <div className="container">
-        <Title title="Contagem regressiva para 2024" />
+        <Title title="Contagem regressiva para 2025" />
         <div className="countdown-container">
           <Counter title="Dias" number={day} />
           <Counter title="Horas" number={hour} />
